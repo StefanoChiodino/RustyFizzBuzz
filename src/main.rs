@@ -22,3 +22,8 @@ fn is_divisible_by(i: u32, j: u32) -> bool {
 
     i % j == 0
 }
+
+#[test]
+fn test_is_divisible_by(){
+    assert!(is_divisible_by(10, 5))
+}

@@ -9,5 +9,7 @@
     <orderEntry type="library" name="Rust &lt;firstProject2&gt;" level="project" />
     <orderEntry type="library" name="Rust &lt;RustyFizzBuzz&gt;" level="project" />
     <orderEntry type="library" name="Cargo &lt;RustyFizzBuzz&gt;" level="project" />
+    <orderEntry type="library" name="Rust &lt;rusty_fizz_buzz&gt;" level="project" />
+    <orderEntry type="library" name="Cargo &lt;rusty_fizz_buzz&gt;" level="project" />
   </component>
 </module>
