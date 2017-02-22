@@ -1,0 +1,6 @@
+[package]
+name = "rustyFizzBuzz"
+version = "0.1.0"
+authors = ["Stefano Chiodino <LouderTH@gmail.com>"]
+
+[dependencies]
