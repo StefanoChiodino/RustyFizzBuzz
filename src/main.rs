@@ -10,7 +10,7 @@ fn fizzbuzz_to(n: u32) {
             _ if is_divisible_by(n, 15) => println!("Fizzbuzz"),
             _ if is_divisible_by(n, 3) => println!("fizz"),
             _ if is_divisible_by(n, 5) => println!("buzz"),
-            _ => println!(),
+            _ => println!(""),
         }
     }
 }
@@ -24,6 +24,11 @@ fn is_divisible_by(i: u32, j: u32) -> bool {
 }
 
 #[test]
-fn test_is_divisible_by(){
-    assert!(is_divisible_by(10, 5))
+fn test_10_is_divisible_by_5(){
+    assert!(is_divisible_by(10, 5));
+}
+
+#[test]
+fn test_11_is_not_divisible_by_5(){
+    assert!(is_divisible_by(10, 5), false);
 }
